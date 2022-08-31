@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "yekan";
+    src: url(./Yekan.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "yekan";
+    box-sizing: border-box;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.text {
+    width: 100%;
+    padding: 15px;
+    background-color: #ffc2b7;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.res {
+    background-color: #b9ffbf;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.child {
+    text-align: center;
+}
